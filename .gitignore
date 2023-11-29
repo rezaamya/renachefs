@@ -1,10 +1,17 @@
 # compiled output
 **/dist
+**/build
 **/node_modules
+**/.next
+**/out
+**/.pnp
+**/.pnp.js
+**/.yarn/install-state.gz
 
-# Logs
+# Logs & Tests
 **/logs
 **/*.log
+**/coverage
 
 # IDE
 **/.idea
@@ -14,3 +21,19 @@
 **/pnpm-lock.yaml
 **/yarn-lock.json
 **/*.env
+
+# misc
+**/.DS_Store
+**/*.pem
+
+# debug
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# vercel
+.vercel
+
+# typescript
+**/*.tsbuildinfo
+**/next-env.d.ts
