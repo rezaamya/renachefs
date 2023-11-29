@@ -1,0 +1,17 @@
+.row {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.imageContainer {
+  width: 10%;
+}
+
+.dataContainer {
+  width: 90%;
+  padding-left: 20px;
+}
+
+.imageContainer, .dataContainer {
+  float: left;
+}

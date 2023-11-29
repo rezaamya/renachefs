@@ -1,3 +1,5 @@
-export default function ingredients () {
-    return <h1>List of Ingredients</h1>
+import ListOfIngredients from '@/components/ingredients/list-of-ingredients/list-of-ingredients';
+
+export default function ingredients() {
+  return <ListOfIngredients />;
 }
