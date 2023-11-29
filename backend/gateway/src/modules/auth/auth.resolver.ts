@@ -11,6 +11,6 @@ export class AuthResolver {
     @Args('username') username: string,
     @Args('password') password: string,
   ) {
-    return this.authService.authenticate(username, password);
+    return this.authService.signIn(username, password);
   }
 }
